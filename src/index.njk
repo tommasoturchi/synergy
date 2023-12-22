@@ -7,19 +7,21 @@ templateEngineOverride: md, njk
 
 <style>
   .logo {
-    width: 12vmax;
-    height: 12vmax;
-    margin: 0 auto 2rem;
+    {# font-family: 'Fascinate Inline', sans-serif; #}
+    font-size: 6.5rem;
+    color: #171392;
+    transform: scale(1.5);
   }
 
-  .logo svg {
-    width: 100%;
-    height: 100%;
+  .over-dot {
+    position: absolute;
+    font-size: 5.8rem;
+    transform: translate(.2em, -.02em);
   }
 
   .tdbc-hero {
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 0vh;
   }
 
   #quickstart + ol li:first-child,
@@ -29,38 +31,15 @@ templateEngineOverride: md, njk
 </style>
 <header class="tdbc-hero">
   <div class="tdbc-container">
-    <span class="logo">
-      <svg
-        viewBox="0 0 800 800"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-        focusable="false"
-      >
-        <path fill="none" d="M-1-1h582v402H-1z" />
-        <g>
-          <path
-            fill="#171392"
-            d="M580.562 219.439c-12.721-12.723-29.637-19.728-47.623-19.728-17.987 0-34.903 7.005-47.625 19.728-12.72 12.72-19.725 29.634-19.725 47.621 0 17.99 7.005 34.904 19.725 47.625 12.722 12.721 29.633 19.723 47.618 19.726h.007c17.986 0 34.902-7.005 47.623-19.726 12.721-12.723 19.726-29.636 19.726-47.625-.002-17.987-7.007-34.9-19.726-47.621zm-26.791 68.456c-5.566 5.568-12.96 8.636-20.834 8.636-7.872-.002-15.271-3.068-20.834-8.636-5.566-5.562-8.633-12.96-8.633-20.834 0-7.868 3.065-15.269 8.633-20.834 5.563-5.565 12.967-8.63 20.834-8.63 7.868 0 15.268 3.063 20.834 8.63 11.492 11.488 11.492 30.18 0 41.668z"
-          />
-          <path
-            fill="#df2b7c"
-            d="M62.282 627.218a18.876 18.876 0 01-13.392-5.546c-7.398-7.397-7.398-19.395 0-26.79L158.42 485.35c7.398-7.397 19.392-7.397 26.79 0s7.398 19.395 0 26.792L75.676 621.672a18.876 18.876 0 01-13.394 5.546zM86.774 732.172c-4.85 0-9.696-1.85-13.395-5.549-7.398-7.397-7.398-19.389 0-26.786L187.545 585.67c7.398-7.398 19.392-7.398 26.787 0 7.398 7.398 7.398 19.393 0 26.79L100.168 726.623a18.884 18.884 0 01-13.394 5.549zM191.725 756.661a18.88 18.88 0 01-13.395-5.546c-7.398-7.397-7.398-19.393 0-26.789L287.863 614.79c7.396-7.394 19.392-7.396 26.787 0 7.398 7.397 7.398 19.395 0 26.793L205.12 751.115a18.884 18.884 0 01-13.395 5.546z"
-          />
-          <path
-            fill="#171392"
-            d="M751.113 48.891a18.949 18.949 0 00-16.403-5.311c-2.202.357-54.705 8.98-126.25 36.316-41.974 16.034-81.85 35.237-118.529 57.076-45.039 26.814-85.356 57.721-119.899 91.871l-143.055 27.85a18.967 18.967 0 00-9.753 5.177L87.618 391.06a18.944 18.944 0 0013.365 32.36c1.202 0 2.415-.114 3.628-.347l146.185-28.463c-9.516 18.672-18.419 38.055-26.683 58.144a18.958 18.958 0 004.125 20.603l35.811 35.811-33.27 33.27c-7.398 7.398-7.398 19.39 0 26.787a18.882 18.882 0 0013.397 5.549c4.847 0 9.693-1.85 13.392-5.546l33.27-33.271 35.811 35.813a18.962 18.962 0 0013.4 5.548c2.423 0 4.871-.467 7.199-1.426 20.091-8.262 39.475-17.165 58.141-26.678L376.934 695.4a18.946 18.946 0 0018.588 22.565c4.917 0 9.778-1.918 13.417-5.573l129.188-129.604a18.969 18.969 0 005.181-9.753l27.845-143.055c34.148-34.547 65.06-74.859 91.876-119.901 21.834-36.683 41.04-76.558 57.077-118.529 27.33-71.551 35.958-124.048 36.313-126.25a18.957 18.957 0 00-5.306-16.409zm-592.72 325.11l81.489-81.224 87.674-17.069c-19.015 23.391-36.655 48.634-52.847 75.648l-116.316 22.645zm348.826 186.12l-81.222 81.489 22.643-116.316c27.021-16.192 52.259-33.83 75.648-52.848l-17.069 87.675zm177.14-381.185c-23.915 62.371-68.01 152.302-142.237 226.531-34.171 34.168-73.96 64.54-118.89 90.838-.804.401-1.585.854-2.322 1.366-24.049 13.943-49.566 26.728-76.476 38.302l-26.806-26.809 54.11-54.106c7.395-7.397 7.395-19.392 0-26.79-7.398-7.397-19.392-7.396-26.79 0l-54.109 54.106-26.806-26.809c11.578-26.913 24.361-52.433 38.308-76.488.508-.732.951-1.5 1.35-2.295 26.298-44.938 56.672-84.732 90.849-118.909 74.225-74.225 164.156-118.319 226.527-142.235 37.897-14.537 70.522-23.601 92.09-28.797-5.198 21.571-14.263 54.197-28.798 92.095z"
-          />
-        </g>
-      </svg>
-    </span>
-    <h1 class="tdbc-ink--primary tdbc-mb-none">{{ meta.siteName }}</h1>
+    <h1 class="tdbc-ink--primary tdbc-mb-none logo"><span class="over-dot">:</span>{{ meta.siteName }}</h1>
     <h2 class="tdbc-lead tdbc-content-maxlength tdbc-ink--gray tdbc-mt-md tdbc-mx-auto">
-      {{ meta.siteDescription }}
+      {{ meta.siteDescription.split("-")[1] }}
     </h2>
   </div>
 </header>
 <main class="tdbc-container">
-  <div class="tdbc-section">
+  {% if collections.pages.length > 0 %}
+  <div class="tdbc-section tdbc-mb-lg">
     <ul class="tdbc-column-container">
       {%- for page in collections.pages -%}
       <li class="tdbc-card">
@@ -72,32 +51,73 @@ templateEngineOverride: md, njk
       {%- endfor -%}
     </ul>
   </div>
-  <style>
-    
-  </style>
+  {% endif %}
 
-<h2 id="quickstart" class="tdbc-h3 tdbc-mt-lg">Quick Start</h2>
+<h2 id="outline" class="tdbc-h3">Outline</h2>
 
-1. [Generate a repo from this template](https://github.com/5t3ph/11ty-netlify-jumpstart/generate) which will copy this project into your own new repo.
+This page describes the <a href="https://avi2024.dibris.unige.it/home">AVI 2024</a> Workshop on Hybrid Human-AI Systems.
+- **Venue**: Arenzano, Genoa, Italy
+- **Workshop Date**: June 3, 2024
+- **Submission Deadline**: TBA {#_(**<span id="daysLeft"></span>** days to go)_#}
+- **Notification**: TBA
+- **Camera Ready**: TBA
+- **Submission Website**: TBA
+- **Submission Templates**: TBA
 
-1. Once cloned, run `npm install` to install 11ty and other dependencies. Then run `npm start` to run 11ty in watch mode. Use `npm run build` to run a production version.
+In 1960 the visionary Joseph Licklider wrote “Man-Computer Symbiosis”, looking forward to a day when computation could "augment the human intellect" in a similar way that mechanical tools augmented humans' physical abilities.  Sixty years on, this vision seems about to become reality.  AI systems are working alongside people in many areas including complex visual analytics, coding using tools such as co-pilot and music composition with generative AI.  We have long experience in expert systems elicitation techniques that attempt to capture and often substitute human expertise in AI systems and also in systems where AI performs some sub-task such as speech recognition.  However, we are still in the infancy of understanding how to design and build truly synergistic systems where humans and AI work flexibly alongside one another complimenting the different abilities of each.  Some human-in-the-loop systems, effectively mean the human is a cog in the machine, however true synergy means adapting AI algorithms to work more meaningfully with human intervention and adapting user interactions to make human intentions more available to the AI.
 
-1. Open `src/_data/meta.js` and adjust the values to your details.
+In this workshop we aim to bring together researchers working or intending to work in this new and rich area.  Some will bring experience in designing intelligent systems; others may have worked on synergistic systems using non-AI technology; some may bring understandings of human-human collaboration; and others still simply interested and excited by the potential opportunities on radically new interactions.
 
-1. Review the [styling documentation](https://5t3ph.github.io/html-sass-jumpstart/) for the included minimal Sass framework, particularly the theme variables, to quickly customize the starter.
+The workshop will include consortium partners from the new 10 million Euro project TANGO "It takes two to tango: a synergistic approach to human-machine decision making".
 
-1. Edit `src/index.njk` to change the home page - including changing the template type if desired - and then create content within `_pages` using any templating format you prefer to add content.
+<h2 id="topics" class="tdbc-h3">Topics and Themes</h2>
 
-1. Check out the [About page](/about/) for expanded details on included features of this starter.
+The topics include <u>but are not limited to</u>:
 
-1. Review the [11ty documentation](https://11ty.dev) to more deeply apply customizations, including adding custom data sources and reviewing what template languages are available.
+1. **Human-AI Collaboration Models**: Investigating new models for collaboration that leverage AI's computational power to enhance human decision-making and creativity, crucial for the development of next-generation visual interfaces.
+2. **Augmenting Human Cognition with AI**: Focusing on how AI can be integrated into visual interfaces to augment human cognitive processes, a topic that resonates with AVI's interest in expanding the boundaries of user interaction.
+3. **Design Principles for Synergistic Systems**: Discussing design strategies for systems where AI and humans collaborate, ensuring these systems are intuitive, efficient, and aligned with human-centric design principles.
+4. **Ethics and Trust in Human-AI Interaction**: Addressing the ethical implications and trust dynamics in AI-integrated systems, a topic of growing importance as these systems become more pervasive.
+5. **Philosophical and Theoretical Approaches**: Uncovering fundamental issues surrounding and underpinning human–AI collaborations.
+6. **Adaptive Interfaces for Human-AI Synergy**: Exploring how visual interfaces can adapt to both AI capabilities and human needs, a key area for advancing HCI research.
+7. **Software Architectures and Tools**: Frameworks, infrastructure and toolkits to enable the prototyping and development of systems for synergistic interaction.
+8. **Case Studies of Human-AI Synergy**: Showcasing real-world applications where AI and humans work in tandem, offering insights into practical implementations and evaluations.
 
-<h3 class="tdbc-h4">Is Netlify hosting required?</h3>
+<h2 id="contributing" class="tdbc-h3">Contributing Your Work</h2>
 
-It's not required, but highly recommended, and is also how the build process is setup to run.
+{# Submissions should be between 5 and 10 pages long, following the <a href="https://ceur-ws.org/HOWTOSUBMIT.html">CEUR-WS instructions</a> for single column papers. #}
 
-> For more Eleventy resources, check out my extended collection on [11ty.Rocks](https://11ty.rocks)!
+{# The deadline for submissions is *January 16, 2024* <a href="https://time.is/Anywhere_on_Earth">AoE</a>. #}
 
-{{ content | safe }}
+Submission website: TBA
+
+Additionally, selected papers will be invited for submission in expanded form to a Special Issue in the Springer journal "Personal and Ubiquitous Computing" (PAUC). The topic of the special issue will be Hybrid Human-AI Systems. Further instructions regarding formatting and the review/publication process will be provided when the invitations are sent.
+
+Please send any comments or questions to Tommaso Turchi, <a href="mailto:tommaso.turchi@unipi.it">tommaso.turchi@unipi.it</a>.
+
+<h2 id="organisers" class="tdbc-h3">Organisers</h2>
+
+<span class="tdbc-h4">Alan Dix</span> is Director of the Computational Foundry at Swansea University and Professorial Fellow at Cardiff Metropolitan University (United Kingdom). He is known for his HCI research, including a core textbook and pioneering work in mobile interfaces and machine learning bias. He is a member of the ACM SIGCHI Academy and his work includes both theoretical foundations and practical applications in diverse fields. Alan is known for his eclectic methods which combine technical, philosophical, and artistic insights, emphasizing the importance of technical creativity.
+
+<span class="tdbc-h4">Matt Roach</span> is a Senior Lecturer in Computer Science at Swansea University (United Kingdom), specializing in machine learning for smart city traffic management and fraud detection. His research interests include Machine Learning, Algorithmic Bias, and Human-Computer Interaction. He plays a key role in several large-scale collaborative projects and doctoral training initiatives. Prior to academia, Matt significantly contributed to computing skills development in industry and business sectors.
+
+<span class="tdbc-h4">Tommaso Turchi</span> is an Assistant Professor at the University of Pisa (Italy). His research focuses on Human-Centered AI and End-User Development. He has worked on various research projects related to the interaction with AI systems and is currently investigating the use of Design Fiction for AI-as-a-service applications in the medical field. His most recent work includes the development of a co-design toolkit to identify and address bias in ML-based collaborative decision-making domains.
+
+<span class="tdbc-h4">Alessio Malizia</span> is an Associate Professor at the University of Pisa (Italy). His research focuses on Human-Centered AI and Design Fictions. He's involved in different National and International projects developing novel approaches for improving scientific methods to study Human-Artificial Intelligence Interaction.
+
+<h2 id="committee" class="tdbc-h3">Program Committee</h2>
+
+Developing...
+
+{# <h2 id="acknowledgements" class="tdbc-h3">Acknowledgements</h2> #}
 
 </main>
+
+<script>
+    function updateCountdown() {
+        const daysLeft = Math.ceil((new Date("2024-01-16") - new Date()) / (1000 * 60 * 60 * 24));
+        document.getElementById('daysLeft').innerText = daysLeft >= 0 ? daysLeft : 0;
+    }
+
+    updateCountdown();
+</script>
