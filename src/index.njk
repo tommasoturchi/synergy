@@ -11,10 +11,14 @@ templateEngineOverride: md, njk
     transform: scale(1.5);
   }
 
-  .over-dot {
+  .over-dots {
     position: absolute;
     font-size: 5.6rem;
     transform: translateX(.2em);
+  }
+
+  .over-dots::before {
+    content: ":";
   }
 
   .tdbc-hero {
@@ -29,7 +33,7 @@ templateEngineOverride: md, njk
 </style>
 <header class="tdbc-hero">
   <div class="tdbc-container">
-    <h1 class="tdbc-ink--primary tdbc-mb-none logo"><span class="over-dot">:</span>{{ meta.siteName }}</h1>
+    <h1 class="tdbc-ink--primary tdbc-mb-none logo"><span class="over-dots"></span>{{ meta.siteName }}</h1>
     <h2 class="tdbc-lead tdbc-content-maxlength tdbc-ink--gray tdbc-mt-md tdbc-mx-auto">
       {{ meta.siteDescription.split("-")[1] }}
     </h2>
