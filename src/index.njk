@@ -78,12 +78,12 @@ templateEngineOverride: md, njk
 
 This page describes the <a href="https://avi2024.dibris.unige.it/home">AVI 2024</a> Workshop on Hybrid Human-AI Systems.
 - **Venue**: Arenzano, Genoa, Italy
-- **Workshop Date**: June 3, 2024
-- **Submission Deadline**: TBA {#_(**<span id="daysLeft"></span>** days to go)_#}
+- **Workshop Date**: June 3, 2024 _(**<span id="daysLeft"></span>** days to go)_
+{# - **Submission Deadline**: TBA _(**<span id="daysLeft"></span>** days to go)_
 - **Notification**: TBA
 - **Camera Ready**: TBA
 - **Submission Website**: TBA
-- **Submission Templates**: TBA
+- **Submission Templates**: TBA #}
 
 In 1960 the visionary Joseph Licklider wrote “Man-Computer Symbiosis”, looking forward to a day when computation could "augment the human intellect" in a similar way that mechanical tools augmented humans' physical abilities.  Sixty years on, this vision seems about to become reality.  AI systems are working alongside people in many areas including complex visual analytics, coding using tools such as co-pilot and music composition with generative AI.  We have long experience in expert systems elicitation techniques that attempt to capture and often substitute human expertise in AI systems and also in systems where AI performs some sub-task such as speech recognition.  However, we are still in the infancy of understanding how to design and build truly synergistic systems where humans and AI work flexibly alongside one another complimenting the different abilities of each.  Some human-in-the-loop systems, effectively mean the human is a cog in the machine, however true synergy means adapting AI algorithms to work more meaningfully with human intervention and adapting user interactions to make human intentions more available to the AI.
 
@@ -130,13 +130,19 @@ Please send any comments or questions to Tommaso Turchi, <a href="mailto:tommaso
 
 Developing...
 
-{# <h2 id="acknowledgements" class="tdbc-h3">Acknowledgements</h2> #}
+<h2 id="acknowledgements" class="tdbc-h3">Acknowledgements</h2>
+
+Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or [name of the granting authority]. Neither the European Union nor the granting authority can be held responsible for them. Grant Agreement 101120763 - TANGO
+
+<div class="footer-images">
+    <img src="img/EU-en.png" alt="EU" class="footer-img">
+</div>
 
 </main>
 
 <script>
     function updateCountdown() {
-        const daysLeft = Math.ceil((new Date("2024-01-16") - new Date()) / (1000 * 60 * 60 * 24));
+        const daysLeft = Math.ceil((new Date("2024-06-03") - new Date()) / (1000 * 60 * 60 * 24));
         document.getElementById('daysLeft').innerText = daysLeft >= 0 ? daysLeft : 0;
     }
 

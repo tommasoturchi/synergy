@@ -93,3 +93,28 @@ hr {
   margin-bottom: 4rem;
   border: 1px solid tdbc-color("secondary");
 }
+
+.footer-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-img {
+  height: 100px;
+  width: auto;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer-images {
+      justify-content: space-around;
+  }
+
+  .footer-img {
+      flex: 0 0 48%;
+      margin: 5px;
+  }
+}
