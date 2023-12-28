@@ -1,51 +1,53 @@
-# 11ty Netlify Jumpstart
+# SYNERGY
+## Designing and Building Hybrid Human–AI Systems
 
-> Created by Stephanie Eckles ([@5t3ph](https://twitter.com/5t3ph))
+### Outline
 
-Visit [11ty-netlify-jumpstart.netlify.app](https://11ty-netlify-jumpstart.netlify.app/) for all the feature details - or go ahead and [generate a new repo from the template](https://github.com/5t3ph/11ty-netlify-jumpstart/generate) to view the information locally.
+This page describes the [AVI 2024](https://avi2024.dibris.unige.it/home) Workshop on Hybrid Human-AI Systems.
+- **Venue**: Arenzano, Genoa, Italy
+- **Workshop Date**: June 3, 2024
 
-## Quick Start
+In 1960 the visionary Joseph Licklider wrote “Man-Computer Symbiosis”, looking forward to a day when computation could "augment the human intellect" in a similar way that mechanical tools augmented humans' physical abilities.  Sixty years on, this vision seems about to become reality.  AI systems are working alongside people in many areas including complex visual analytics, coding using tools such as co-pilot and music composition with generative AI.  We have long experience in expert systems elicitation techniques that attempt to capture and often substitute human expertise in AI systems and also in systems where AI performs some sub-task such as speech recognition.  However, we are still in the infancy of understanding how to design and build truly synergistic systems where humans and AI work flexibly alongside one another complimenting the different abilities of each.  Some human-in-the-loop systems, effectively mean the human is a cog in the machine, however true synergy means adapting AI algorithms to work more meaningfully with human intervention and adapting user interactions to make human intentions more available to the AI.
 
-1. [Generate a repo from this template](https://github.com/5t3ph/11ty-netlify-jumpstart/generate) which will copy this project into your own new repo _if you are currently signed in to GitHub_. Alternatively, [visit the repo directly](https://github.com/5t3ph/11ty-netlify-jumpstart).
+In this workshop we aim to bring together researchers working or intending to work in this new and rich area.  Some will bring experience in designing intelligent systems; others may have worked on synergistic systems using non-AI technology; some may bring understandings of human-human collaboration; and others still simply interested and excited by the potential opportunities on radically new interactions.
 
-1. Once cloned, run `npm install` to install 11ty and other dependencies. Then run `npm start` to run 11ty in watch mode. Use `npm run build` to run a production version.
+The workshop will include consortium partners from the new 10 million Euro project [TANGO](https://tango-project.eu/) "It takes two to tango: a synergistic approach to human-machine decision making".
 
-1. Open `src/_data/meta.js` and adjust the values to your details.
+### Topics and Themes
 
-1. Review the [styling documentation](https://5t3ph.github.io/html-sass-jumpstart/) for the included minimal Sass framework, particularly the theme variables, to quickly customize the starter.
+The topics include <u>but are not limited to</u>:
 
-1. Edit `src/index.njk` to change the home page - including changing the template type if desired - and then create content within `_pages` using any templating format you prefer to add content.
+1. **Human-AI Collaboration Models**: Investigating new models for collaboration that leverage AI's computational power to enhance human decision-making and creativity, crucial for the development of next-generation visual interfaces.
+2. **Augmenting Human Cognition with AI**: Focusing on how AI can be integrated into visual interfaces to augment human cognitive processes, a topic that resonates with AVI's interest in expanding the boundaries of user interaction.
+3. **Design Principles for Synergistic Systems**: Discussing design strategies for systems where AI and humans collaborate, ensuring these systems are intuitive, efficient, and aligned with human-centric design principles.
+4. **Ethics and Trust in Human-AI Interaction**: Addressing the ethical implications and trust dynamics in AI-integrated systems, a topic of growing importance as these systems become more pervasive.
+5. **Philosophical and Theoretical Approaches**: Uncovering fundamental issues surrounding and underpinning human–AI collaborations.
+6. **Adaptive Interfaces for Human-AI Synergy**: Exploring how visual interfaces can adapt to both AI capabilities and human needs, a key area for advancing HCI research.
+7. **Software Architectures and Tools**: Frameworks, infrastructure and toolkits to enable the prototyping and development of systems for synergistic interaction.
+8. **Case Studies of Human-AI Synergy**: Showcasing real-world applications where AI and humans work in tandem, offering insights into practical implementations and evaluations.
 
-1. Check out the [About page](https://11ty-netlify-jumpstart.netlify.app/about/) for expanded details on included features of this starter.
+### Contributing Your Work
 
-1. Review the [11ty documentation](https://11ty.dev) to more deeply apply customizations, including adding custom data sources and reviewing what template languages are available.
+Submission website: TBA
 
-### Is Netlify hosting required?
+Additionally, selected papers will be invited for submission in expanded form to a Special Issue in the Springer journal "Personal and Ubiquitous Computing" (PAUC). The topic of the special issue will be Hybrid Human-AI Systems. Further instructions regarding formatting and the review/publication process will be provided when the invitations are sent.
 
-It's not required, but highly recommended, and is also how the build process is setup to run.
+Please send any comments or questions to Tommaso Turchi, [tommaso.turchi@unipi.it](mailto:tommaso.turchi@unipi.it).
 
-## Development Scripts
+### Organisers
 
-**`npm start`**
+**Alan Dix** is Director of the Computational Foundry at Swansea University and Professorial Fellow at Cardiff Metropolitan University (United Kingdom). He is known for his HCI research, including a core textbook and pioneering work in mobile interfaces and machine learning bias. He is a member of the ACM SIGCHI Academy and his work includes both theoretical foundations and practical applications in diverse fields. Alan is known for his eclectic methods which combine technical, philosophical, and artistic insights, emphasizing the importance of technical creativity.
 
-> Run 11ty with hot reload at localhost:8080
+**Matt Roach** is a Senior Lecturer in Computer Science at Swansea University (United Kingdom), specializing in machine learning for smart city traffic management and fraud detection. His research interests include Machine Learning, Algorithmic Bias, and Human-Computer Interaction. He plays a key role in several large-scale collaborative projects and doctoral training initiatives. Prior to academia, Matt significantly contributed to computing skills development in industry and business sectors.
 
-**`npm run build`**
+**Tommaso Turchi** is an Assistant Professor at the University of Pisa (Italy). His research focuses on Human-Centered AI and End-User Development. He has worked on various research projects related to the interaction with AI systems and is currently investigating the use of Design Fiction for AI-as-a-service applications in the medical field. His most recent work includes the development of a co-design toolkit to identify and address bias in ML-based collaborative decision-making domains.
 
-> Production build includes minified, autoprefixed CSS and social preview image generation
+**Alessio Malizia** is an Associate Professor at the University of Pisa (Italy). His research focuses on Human-Centered AI and Design Fictions. He's involved in different National and International projects developing novel approaches for improving scientific methods to study Human-Artificial Intelligence Interaction.
 
-Use this as the "Publish command" if needed by hosting such as Netlify.
+### Program Committee
 
-## Feedback welcome!
+Developing...
 
-You can [file it as an issue](https://github.com/5t3ph/11ty-netlify-jumpstart/issues).
+### Acknowledgements
 
-[![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/default-violet.png)](https://www.buymeacoffee.com/moderncss)
-
-## Changes in v2
-
-For those that have use this starter before, you should know the following changes:
-
-- removal of social media images - due to issues with packages for creating the images
-- removal of stylelint
-- update to use [@11tyrocks/eleventy-plugin-sass-lightningcss](https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-sass-lightningcss) for Sass processing
+Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them. Grant Agreement 101120763 - TANGO
