@@ -5,7 +5,7 @@
 
 This page describes the [AVI 2024](https://avi2024.dibris.unige.it/home) Workshop on Hybrid Human-AI Systems.
 - **Venue**: Arenzano, Genoa, Italy
-- **Workshop Date**: June 3, 2024
+- **Workshop Date**: _Afternoon_ of June 3 or 4, 2024
 
 In 1960 the visionary Joseph Licklider wrote “Man-Computer Symbiosis”, looking forward to a day when computation could "augment the human intellect" in a similar way that mechanical tools augmented humans' physical abilities.  Sixty years on, this vision seems about to become reality.  AI systems are working alongside people in many areas including complex visual analytics, coding using tools such as co-pilot and music composition with generative AI.  We have long experience in expert systems elicitation techniques that attempt to capture and often substitute human expertise in AI systems and also in systems where AI performs some sub-task such as speech recognition.  However, we are still in the infancy of understanding how to design and build truly synergistic systems where humans and AI work flexibly alongside one another complimenting the different abilities of each.  Some human-in-the-loop systems, effectively mean the human is a cog in the machine, however true synergy means adapting AI algorithms to work more meaningfully with human intervention and adapting user interactions to make human intentions more available to the AI.
 
