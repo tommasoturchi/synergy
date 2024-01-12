@@ -11,7 +11,7 @@ In 1960 the visionary Joseph Licklider wrote “Man-Computer Symbiosis”, looki
 
 In this workshop we aim to bring together researchers working or intending to work in this new and rich area.  Some will bring experience in designing intelligent systems; others may have worked on synergistic systems using non-AI technology; some may bring understandings of human-human collaboration; and others still simply interested and excited by the potential opportunities on radically new interactions.
 
-The workshop will include consortium partners from the new 10 million Euro project [TANGO](https://tango-project.eu/) "It takes two to tango: a synergistic approach to human-machine decision making".
+The workshop will include consortium partners from the new 10 million Euro project [TANGO](https://tango-horizon.eu/) "It takes two to tango: a synergistic approach to human-machine decision making".
 
 ### Topics and Themes
 
@@ -50,4 +50,6 @@ Developing...
 
 ### Acknowledgements
 
-Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them. Grant Agreement 101120763 - TANGO
+This workshop is supported by the HORIZON-RIA project TANGO - Grant Agreement 101120763.
+
+Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.
