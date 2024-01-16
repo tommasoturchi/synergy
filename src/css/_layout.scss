@@ -101,7 +101,7 @@ hr {
   align-items: center;
 }
 
-.footer-img {
+.footer-images > img {
   height: 150px;
   width: auto;
   margin: 15px;
@@ -114,17 +114,8 @@ hr {
   -ms-user-select: none;
 }
 
-.footer-eu {
+img.footer-eu {
   height: 80px;
-  width: auto;
-  margin: 15px;
-  border-radius: 5px;
-  user-drag: none;
-  -webkit-user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
 }
 
 @media (max-width: 768px) {
@@ -132,7 +123,7 @@ hr {
       justify-content: space-around;
   }
 
-  .footer-img {
+  .footer-images > img {
       flex: 0 0 48%;
       margin: 5px;
   }
