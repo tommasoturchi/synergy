@@ -55,6 +55,6 @@ Developing...
 
 ### Acknowledgements
 
-This workshop is supported by the HORIZON-RIA project TANGO - Grant Agreement 101120763.
+_Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Health and Digital Executive Agency (HaDEA). Neither the European Union nor the granting authority can be held responsible for them._
 
-Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.
+This workshop is supported by the HORIZON Europe project TANGO - Grant Agreement n. 101120763.
