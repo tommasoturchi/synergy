@@ -33,7 +33,7 @@ The topics include <u>but are not limited to</u>:
 
 ### Contributing Your Work
 
-Submissions should be between 5 and 10 pages long, following the [CEUR-WS instructions](https://ceur-ws.org/HOWTOSUBMIT.html) for single column papers.
+Submissions should be between 5 and 10 pages long, following the [CEUR-WS instructions](https://ceur-ws.org/HOWTOSUBMIT.html) for single column papers. Please note that submissions do not need to be anonymized.
 
 The deadline for submissions is *April 2, 2024* [AoE](https://time.is/Anywhere_on_Earth).
 
