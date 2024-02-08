@@ -55,6 +55,9 @@ Please send any comments or questions to Tommaso Turchi, [tommaso.turchi@unipi.i
 
 ### Program Committee
 
+- **Silvio Carta**, University of Greenwich (United Kingdom)
+- **Marlene Weber**, Harness Inc. (United States)
+
 Developing...
 
 ### Acknowledgements
