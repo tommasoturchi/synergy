@@ -66,3 +66,7 @@ Developing...
 _Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Health and Digital Executive Agency (HaDEA). Neither the European Union nor the granting authority can be held responsible for them._
 
 This workshop is supported by the HORIZON Europe project TANGO - Grant Agreement n. 101120763.
+
+This work was also supported by the Engineering and Physical Sciences Research Council [grant number EP/V00784X/1] UKRI Trustworthy Autonomous Systems Hub (The TAS RRI II project), [grant number EP/G065802/1] and [grant number EP/Y009800/1] AI UK: Creating an International Ecosystem for Responsible AI Research and Innovation (RAI UK), (RAKE Responsible Innovation Advantage in Knowledge Exchange).
+
+We acknowledge the involvement of the STAHR Collective.
