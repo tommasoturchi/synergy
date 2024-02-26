@@ -6,7 +6,7 @@ description: 'We are thrilled to announce Dr. Yang Li as the Keynote Speaker for
 
 ### About Dr. Yang Li
 
-Dr. Yang Li is a Senior Staff Research Scientist at Google Research and an affiliate faculty member at the University of Washington CSE. With a Ph.D. in Computer Science from the Chinese Academy of Sciences and postdoctoral research at UC Berkeley EECS, Dr. Li's expertise spans the critical intersection of Human Computer Interaction and Artificial Intelligence.
+[Dr. Yang Li](https://yangl.org/) is a Senior Staff Research Scientist at Google Research and an affiliate faculty member at the University of Washington CSE. With a Ph.D. in Computer Science from the Chinese Academy of Sciences and postdoctoral research at UC Berkeley EECS, Dr. Li's expertise spans the critical intersection of Human Computer Interaction and Artificial Intelligence.
 
 #### Research Focus
 
