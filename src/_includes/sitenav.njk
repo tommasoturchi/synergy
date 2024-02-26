@@ -1,17 +1,29 @@
 {% set currentUrl = page.url %}
 
+<style>
+  .over-dots {
+      font-size: .9em;
+      position: absolute;
+      transform: translate(.18em, -.01em);
+  }
+
+  .over-dots::before {
+    content: ":";
+  }
+</style>
+
 <nav class="tdbc-sitenav">
   <div class="tdbc-sitenav__container">
     <a id="tdbc-siteid" href="/"
     {% if currentUrl === '/' %}aria-current="page"{% endif %}
-    >{{ meta.siteName }}</a>
+    ><span class="over-dots"></span>{{ meta.siteName }}</a>
     <ul role="list" class="tdbc-sitenav__navlist tdbc-list-unstyled">
       {% for link in collections.pages %}
       <li>
         <a
           {% if currentUrl === link.url %}aria-current="page"{% endif %}
           href="{{ link.url }}">
-            {{ link.data.title }}
+            {{ link.data.menutitle }}
         </a>
       </li>
       {%- endfor %}

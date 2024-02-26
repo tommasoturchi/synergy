@@ -27,7 +27,7 @@ module.exports = function (eleventyConfig) {
       class: "tdbc-anchor",
       space: false,
     }),
-    level: [1, 2, 3],
+    level: [2],
     slugify: (str) =>
       slugify(str, {
         lower: true,

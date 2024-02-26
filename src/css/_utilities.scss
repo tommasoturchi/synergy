@@ -62,6 +62,10 @@ $tdbc-alignments: left, center, right !default;
   .tdbc-mt-#{$key} {
     margin-top: $unit;
   }
+
+  .tdbc-mb-#{$key} {
+    margin-bottom: $unit;
+  }
 }
 
 .tdbc-mb-none {
