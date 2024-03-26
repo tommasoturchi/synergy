@@ -61,6 +61,9 @@ Please send any comments or questions to Tommaso Turchi, [tommaso.turchi@unipi.i
 - **Sagar Pande**, University of California (United States)
 - **Glenn McGarry**, University of Nottingham (United Kingdom)
 - **Daria Mikhaylova**, University of Pisa (Italy)
+- **Ben Wilson**, University of Swansea (United Kingdom)
+- **Roberto Figliè**, University of Pisa (Italy)
+- **Federico Mazzoni**, University of Pisa (Italy)
 
 Developing...
 
