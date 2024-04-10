@@ -6,7 +6,7 @@
 This page describes the [AVI 2024](https://avi2024.dibris.unige.it/home) Workshop on Hybrid Human-AI Systems.
 - **Venue**: Arenzano, Genoa, Italy
 - **Workshop Date**: _Afternoon_ of June 3 or 4, 2024
-- **Submission Deadline**: April 9, 2024
+- ~~**Submission Deadline**: April 9, 2024~~
 - **Notification**: April 23, 2024
 - **Camera Ready**: May 3, 2024
 - **Submission Website**: [Microsoft CMT](https://cmt3.research.microsoft.com/SYNERGY2024)
@@ -35,7 +35,7 @@ The topics include <u>but are not limited to</u>:
 
 Submissions should be minimum 5 pages long, following the [CEUR-WS instructions](https://ceur-ws.org/HOWTOSUBMIT.html) for single column papers. Please note that submissions do not need to be anonymized.
 
-The deadline for submissions is *April 9, 2024* [AoE](https://time.is/Anywhere_on_Earth).
+~~The deadline for submissions is *April 9, 2024* [AoE](https://time.is/Anywhere_on_Earth).~~
 
 Submission website: [Microsoft CMT](https://cmt3.research.microsoft.com/SYNERGY2024)
 
