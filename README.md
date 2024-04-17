@@ -5,7 +5,7 @@
 
 This page describes the [AVI 2024](https://avi2024.dibris.unige.it/home) Workshop on Hybrid Human-AI Systems.
 - **Venue**: Arenzano, Genoa, Italy
-- **Workshop Date**: _Afternoon_ of June 3 or 4, 2024
+- **Workshop Date**: June 3, 2024
 - ~~**Submission Deadline**: April 9, 2024~~
 - **Notification**: April 23, 2024
 - **Camera Ready**: May 3, 2024
