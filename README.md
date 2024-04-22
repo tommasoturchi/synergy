@@ -64,7 +64,6 @@ Please send any comments or questions to Tommaso Turchi, [tommaso.turchi@unipi.i
 - **Ben Wilson**, University of Swansea (United Kingdom)
 - **Roberto Figliè**, University of Pisa (Italy)
 - **Serena Versino**, University of Pisa (Italy)
-- **Federico Mazzoni**, University of Pisa (Italy)
 
 Developing...
 
