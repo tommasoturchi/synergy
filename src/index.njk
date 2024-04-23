@@ -4,6 +4,14 @@ templateEngineOverride: md, njk
 ---
 
 {# A tiny extra style for the starter home page, intended to be removed as you customize to fit your own content! #}
+{# <script>
+    function updateCountdown() {
+        const daysLeft = Math.ceil((new Date("2024-04-10") - new Date()) / (1000 * 60 * 60 * 24));
+        document.getElementById('daysLeft').innerText = daysLeft >= 0 ? daysLeft : 0;
+    }
+
+    updateCountdown();
+</script> #}
 
 <style>
   .logo {
@@ -183,12 +191,3 @@ We acknowledge the involvement of the STAHR Collective.
 </div>
 
 </main>
-
-<script>
-    function updateCountdown() {
-        const daysLeft = Math.ceil((new Date("2024-04-10") - new Date()) / (1000 * 60 * 60 * 24));
-        document.getElementById('daysLeft').innerText = daysLeft >= 0 ? daysLeft : 0;
-    }
-
-    updateCountdown();
-</script>
