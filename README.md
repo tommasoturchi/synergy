@@ -7,7 +7,7 @@ This page describes the [AVI 2024](https://avi2024.dibris.unige.it/home) Worksho
 - **Venue**: Arenzano, Genoa, Italy
 - **Workshop Date**: June 3, 2024
 - ~~**Submission Deadline**: April 9, 2024~~
-- **Notification**: April 23, 2024
+- ~~**Notification**: April 23, 2024~~
 - **Camera Ready**: May 10, 2024
 - **Submission Website**: [Microsoft CMT](https://cmt3.research.microsoft.com/SYNERGY2024)
 - **Submission Templates**: [CEUR-ART 1-column Template](https://drive.google.com/file/d/1-1jUjijZI3IdXc7lHQbJBPeq_SGRAiel/view?usp=sharing) (5 pages minimum, no anonymization required)
