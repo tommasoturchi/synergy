@@ -1,7 +1,7 @@
 ---
 title: "Keynote Announced"
 menutitle: "Keynote"
-description: 'We are thrilled to announce Dr. Yang Li as the Keynote Speaker for the AVI 2024 Workshop on Hybrid Human-AI Systems. Dr. Li comes with a rich background in the intersection of Human Computer Interaction and Artificial Intelligence, with significant contributions to on-device interactive ML and user experience improvement.'
+description: 'We are thrilled to announce Dr. Yang Li as our Keynote Speaker. Dr. Li comes with a rich background in the intersection of Human Computer Interaction and Artificial Intelligence, with significant contributions to on-device interactive ML and user experience improvement.'
 ---
 
 ### About Dr. Yang Li
