@@ -62,6 +62,7 @@ Please send any comments or questions to Tommaso Turchi, [tommaso.turchi@unipi.i
 - **Marlene Weber**, Harness Inc. (United States)
 - **Glenn McGarry**, University of Nottingham (United Kingdom)
 - **Daria Mikhaylova**, University of Pisa (Italy)
+- **Sagar Pande**, University of California (United States)
 - **Roberto Figliè**, University of Pisa (Italy)
 - **Serena Versino**, University of Pisa (Italy)
 
