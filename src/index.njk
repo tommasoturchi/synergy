@@ -97,7 +97,7 @@ templateEngineOverride: md, njk
   {% if collections.pages.length > 0 %}
   <div class="tdbc-section tdbc-mb-lg">
     <ul class="tdbc-column-container">
-      {%- for page in collections.pages -%}
+      {%- for page in collections.pages | reverse -%}
       <li class="tdbc-card">
         <div class="tdbc-card__content">
           <a href="{{ page.url }}" class="tdbc-card__title">{{ page.data.title }}</a>
