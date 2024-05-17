@@ -17,6 +17,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/img");
   eleventyConfig.addPassthroughCopy("./src/favicon.png");
   eleventyConfig.addPassthroughCopy("./src/proceedings/*.pdf");
+  eleventyConfig.addPassthroughCopy("./src/proceedings/*.css");
+  eleventyConfig.addPassthroughCopy("./src/proceedings/*.png");
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
