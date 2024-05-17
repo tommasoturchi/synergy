@@ -1,7 +1,7 @@
 ---
 title: "Keynote Announced"
 menutitle: "Keynote"
-description: 'We are thrilled to announce Dr. Yang Li as our Keynote Speaker. Dr. Li comes with a rich background in the intersection of Human Computer Interaction and Artificial Intelligence, with significant contributions to on-device interactive ML and user experience improvement.'
+description: 'Dr. Yang Li will deliver the keynote titled "Empowering UI Design with Human-AI Co-Creation". Dr. Li comes with a rich background in the intersection of Human Computer Interaction and Artificial Intelligence, with significant contributions to on-device interactive ML and user experience improvement.'
 ---
 
 ### About Dr. Yang Li
@@ -22,7 +22,7 @@ Yang is also an editor of the Springer book on AI for HCI: A Modern Approach, co
 
 ### Keynote Session
 
-In his keynote, Dr. Li will delve into the challenges and opportunities at the forefront of Human-AI systems, drawing on his extensive research and practical experience. He will explore the future of synergistic Human-AI collaboration, emphasizing the importance of designing AI that complements human intelligence and creativity.
+In his keynote, Dr. Li will delve into the challenges and opportunities at the forefront of Human-AI systems, drawing on his extensive research and practical experience. He will explore the future of synergistic Human-AI collaboration, emphasizing the importance of designing AI that complements human intelligence and creativity. The session titled "Empowering UI Design with Human-AI Co-Creation" will highlight innovative strategies for integrating AI into user interface design to enhance both functionality and user experience.
 
 Join us for this insightful session that will illuminate the pathways towards more meaningful and effective Human-AI partnerships.
 
