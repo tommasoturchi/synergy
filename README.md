@@ -39,7 +39,7 @@ Submissions should be minimum 5 pages long, following the [CEUR-WS instructions]
 
 Submission website: [Microsoft CMT](https://cmt3.research.microsoft.com/SYNERGY2024)
 
-Additionally, selected papers will be invited for submission in expanded form to a Special Issue in the Springer journal "Personal and Ubiquitous Computing" (PAUC). The topic of the special issue will be Hybrid Human-AI Systems. Further instructions regarding formatting and the review/publication process will be provided when the invitations are sent.
+Additionally, selected papers will be invited for submission in expanded form to a Special Issue in a leading journal. The topic of the special issue will be Hybrid Human-AI Systems. Further instructions regarding formatting and the review/publication process will be provided when the invitations are sent.
 
 Please send any comments or questions to Tommaso Turchi, [tommaso.turchi@unipi.it](mailto:tommaso.turchi@unipi.it).
 
