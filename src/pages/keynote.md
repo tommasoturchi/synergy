@@ -1,5 +1,5 @@
 ---
-title: "Keynote Announced"
+title: "Keynote"
 menutitle: "Keynote"
 description: 'Dr. Yang Li will deliver the keynote titled "Empowering UI Design with Human-AI Co-Creation". Dr. Li comes with a rich background in the intersection of Human Computer Interaction and Artificial Intelligence, with significant contributions to on-device interactive ML and user experience improvement.'
 ---
