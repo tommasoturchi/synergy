@@ -3,7 +3,7 @@ module.exports = {
   siteName: "SYNERGY",
   siteDescription:
     "SYNERGY - Designing and Building Hybrid Human–AI Systems",
-  socialTitle: "SYNERGY Workshop @ AVI 2024",
+  socialTitle: "SYNERGY Workshop",
   authorName: "Tommaso Turchi",
   twitterUsername: "SYNERGYWorkshop", // no `@`
 };

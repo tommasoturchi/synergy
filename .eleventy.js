@@ -22,6 +22,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
+  eleventyConfig.addCollection("pages2024", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("./src/2024/pages/*.md");
+  });
+
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
     html: true,

@@ -18,6 +18,25 @@ templateEngineOverride: md, njk
       font-family: 'Averia Libre', sans-serif;
   }
 
+  .edition {
+    font-family: 'Courier Prime', monospace;
+    position: absolute;
+    margin-left: -4%;
+    margin-top: 6%;
+    color: #666;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border: 2px solid #f95738;
+    border-radius: 4px;
+    padding: 2px 6px;
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: rotate(-12deg);
+    z-index: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+
   .over-dots {
       position: absolute;
       transform: translate(0, -.12em);
@@ -87,17 +106,21 @@ templateEngineOverride: md, njk
 </style>
 <header class="tdbc-hero">
   <div class="tdbc-container">
-    <h1 class="tdbc-ink--primary tdbc-mb-none logo"><span class="over-dots"></span>{{ meta.siteName }}</h1>
+    <h1 class="tdbc-ink--primary tdbc-mb-none logo">
+      <span class="over-dots"></span>
+      {{ meta.siteName }}
+      <span class="edition">2024</span>
+    </h1>
     <h2 class="tdbc-lead tdbc-content-maxlength tdbc-ink--gray tdbc-mt-md tdbc-mx-auto">
       {{ meta.siteDescription.split("-")[1] }}
     </h2>
   </div>
 </header>
 <main class="tdbc-container">
-  {% if collections.pages.length > 0 %}
+  {% if collections.pages2024.length > 0 %}
   <div class="tdbc-section tdbc-mb-lg">
     <ul class="tdbc-column-container">
-      {%- for page in collections.pages | reverse -%}
+      {%- for page in collections.pages2024 | reverse -%}
       <li class="tdbc-card">
         <div class="tdbc-card__content">
           <a href="{{ page.url }}" class="tdbc-card__title">{{ page.data.title }}</a>
@@ -111,10 +134,13 @@ templateEngineOverride: md, njk
 
 <h2 id="outline" class="tdbc-h3">Outline</h2>
 
-This page describes the <a href="https://hhai-conference.org/2025/">HHAI 2025</a> Workshop on Hybrid Human-AI Systems. If you're looking for last year's workshop, please visit the <a href="/2024/">2024 edition</a>.
-- **Venue**: Pisa, Italy
-- **Workshop Date**: June 3, 2024
-- **Submission Website**: TBD
+This page describes the <a href="https://avi2024.dibris.unige.it/home">AVI 2024</a> Workshop on Hybrid Human-AI Systems.
+- **Venue**: Arenzano, Genoa, Italy
+- **Workshop Date**: June 3, 2024 <span class="note">Full Day</span>
+- ~~**Submission Deadline**: April 9, 2024~~
+- ~~**Notification**: April 23, 2024~~
+- ~~**Camera Ready**: May 13, 2024~~
+- **Submission Website**: <a href="https://cmt3.research.microsoft.com/SYNERGY2024">Microsoft CMT</a>
 - **Submission Templates**: <a href="https://drive.google.com/file/d/1-1jUjijZI3IdXc7lHQbJBPeq_SGRAiel/view?usp=sharing">CEUR-ART 1-column Template</a> (5 pages minimum, no anonymization required)
 
 In 1960 the visionary Joseph Licklider wrote “Man-Computer Symbiosis”, looking forward to a day when computation could "augment the human intellect" in a similar way that mechanical tools augmented humans' physical abilities.  Sixty years on, this vision seems about to become reality.  AI systems are working alongside people in many areas including complex visual analytics, coding using tools such as co-pilot and music composition with generative AI.  We have long experience in expert systems elicitation techniques that attempt to capture and often substitute human expertise in AI systems and also in systems where AI performs some sub-task such as speech recognition.  However, we are still in the infancy of understanding how to design and build truly synergistic systems where humans and AI work flexibly alongside one another complimenting the different abilities of each.  Some human-in-the-loop systems, effectively mean the human is a cog in the machine, however true synergy means adapting AI algorithms to work more meaningfully with human intervention and adapting user interactions to make human intentions more available to the AI.
@@ -140,25 +166,45 @@ The topics include <u>but are not limited to</u>:
 
 Submissions should be minimum 5 pages long, following the <a href="https://ceur-ws.org/HOWTOSUBMIT.html">CEUR-WS instructions</a> for single column papers. Please note that submissions do not need to be anonymized.
 
+~~The deadline for submissions is *April 9, 2024* <a href="https://time.is/Anywhere_on_Earth">AoE</a>.~~
+Submission website: <a href="https://cmt3.research.microsoft.com/SYNERGY2024">Microsoft CMT</a>
+
+Additionally, selected papers will be invited for submission in expanded form to a Special Issue in a leading journal. The topic of the special issue will be Hybrid Human-AI Systems. Further instructions regarding formatting and the review/publication process will be provided when the invitations are sent.
+
 Please send any comments or questions to Tommaso Turchi, <a href="mailto:tommaso.turchi@unipi.it">tommaso.turchi@unipi.it</a>.
 
 <h2 id="organisers" class="tdbc-h3">Organisers</h2>
-
-<span class="tdbc-h4">Tommaso Turchi</span> is an Assistant Professor at the University of Pisa (Italy). His research focuses on Human-Centered AI and End-User Development. He has worked on various research projects related to the interaction with AI systems and is currently investigating the use of Design Fiction for AI-as-a-service applications in the medical field. His most recent work includes the development of a co-design toolkit to identify and address bias in ML-based collaborative decision-making domains.
 
 <span class="tdbc-h4">Alan Dix</span> is Emeritus Professor of the Computational Foundry at Swansea University and Professorial Fellow at Cardiff Metropolitan University (United Kingdom). He is known for his HCI research, including a core textbook and pioneering work in mobile interfaces and machine learning bias. He is a member of the ACM SIGCHI Academy and his work includes both theoretical foundations and practical applications in diverse fields. Alan is known for his eclectic methods which combine technical, philosophical, and artistic insights, emphasizing the importance of technical creativity.
 
 <span class="tdbc-h4">Matt Roach</span> is a Senior Lecturer in Computer Science at Swansea University (United Kingdom), specializing in machine learning for smart city traffic management and fraud detection. His research interests include Machine Learning, Algorithmic Bias, and Human-Computer Interaction. He plays a key role in several large-scale collaborative projects and doctoral training initiatives. Prior to academia, Matt significantly contributed to computing skills development in industry and business sectors.
 
+<span class="tdbc-h4">Tommaso Turchi</span> is an Assistant Professor at the University of Pisa (Italy). His research focuses on Human-Centered AI and End-User Development. He has worked on various research projects related to the interaction with AI systems and is currently investigating the use of Design Fiction for AI-as-a-service applications in the medical field. His most recent work includes the development of a co-design toolkit to identify and address bias in ML-based collaborative decision-making domains.
+
 <span class="tdbc-h4">Alessio Malizia</span> is an Associate Professor at the University of Pisa (Italy). His research focuses on Human-Centered AI and Design Fictions. He's involved in different National and International projects developing novel approaches for improving scientific methods to study Human-Artificial Intelligence Interaction.
 
 <span class="tdbc-h4">Ben Wilson</span> is a PhD candidate at Swansea University having done previous work in the UK National Health Service on health systems development, informatics, clinical outcomes capture and analysis. His current work is on human-machine synergy in relation to decision-making. He is a Research Officer on the Tango-Horizon project.
+
+<h2 id="committee" class="tdbc-h3">Program Committee</h2>
+
+- **Alan Chamberlain**, University of Nottingham (United Kingdom)
+- **Silvio Carta**, University of Greenwich (United Kingdom)
+- **Marlene Weber**, Harness Inc. (United States)
+- **Glenn McGarry**, University of Nottingham (United Kingdom)
+- **Daria Mikhaylova**, University of Pisa (Italy)
+- **Sagar Pande**, University of California (United States)
+- **Roberto Figliè**, University of Pisa (Italy)
+- **Serena Versino**, University of Pisa (Italy)
 
 <h2 id="acknowledgements" class="tdbc-h3">Acknowledgements</h2>
 
 _Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Health and Digital Executive Agency (HaDEA). Neither the European Union nor the granting authority can be held responsible for them._
 
 This workshop is supported by the HORIZON Europe project TANGO - Grant Agreement n. 101120763.
+
+This work was also supported by the Engineering and Physical Sciences Research Council [grant number EP/V00784X/1] UKRI Trustworthy Autonomous Systems Hub (The TAS RRI II project), [grant number EP/G065802/1] and [grant number EP/Y009800/1] AI UK: Creating an International Ecosystem for Responsible AI Research and Innovation (RAI UK), (RAKE Responsible Innovation Advantage in Knowledge Exchange).
+
+We acknowledge the involvement of the STAHR Collective.
 
 <div class="footer-images">
     <img src="/img/TANGO.png" alt="TANGO">
