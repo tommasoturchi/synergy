@@ -21,8 +21,6 @@ templateEngineOverride: md, njk
   .edition {
     font-family: 'Courier Prime', monospace;
     position: absolute;
-    margin-left: -4%;
-    margin-top: 6%;
     color: #666;
     font-weight: 800;
     font-size: 1.2rem;
@@ -47,6 +45,11 @@ templateEngineOverride: md, njk
       font-size: 8vw;
     }
 
+    .edition {
+      margin-left: -4%;
+      margin-top: 6%;
+    }
+
     .over-dots {
       font-size: 8.2vw;
       transform: translate(.15em, -.12em);
@@ -56,6 +59,11 @@ templateEngineOverride: md, njk
   @media screen and (max-width: 600px) {
     .logo {
       font-size: 20vw;
+    }
+
+    .edition {
+      margin-left: -15%;
+      margin-top: 14%;
     }
 
     .over-dots {
