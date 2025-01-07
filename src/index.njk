@@ -23,6 +23,17 @@ templateEngineOverride: md, njk
       transform: translate(0, -.12em);
   }
 
+  .footer-img {
+    margin: auto;
+    border-radius: 5px;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
   @media screen and (min-width: 601px) {
     .logo {
       font-size: 8vw;
@@ -31,6 +42,10 @@ templateEngineOverride: md, njk
     .over-dots {
       font-size: 8.2vw;
       transform: translate(.15em, -.12em);
+    }
+
+    .footer-img {
+      width: 35%;
     }
   }
 
@@ -42,6 +57,10 @@ templateEngineOverride: md, njk
     .over-dots {
       font-size: 20.2vw;
       transform: translate(.15em, -.12em);
+    }
+
+    .footer-img {
+      width: 80%;
     }
   }
 
@@ -163,5 +182,7 @@ This workshop is supported by the HORIZON Europe project TANGO - Grant Agreement
 <div class="footer-images">
     <img src="/img/TANGO.png" alt="TANGO">
 </div>
+
+<img src="/img/eu.png" alt="Funded by the European Union" class="footer-img">
 
 </main>
