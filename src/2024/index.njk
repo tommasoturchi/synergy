@@ -16,6 +16,7 @@ templateEngineOverride: md, njk
 <style>
   .logo {
       font-family: 'Averia Libre', sans-serif;
+      white-space: nowrap;
   }
 
   .edition {
@@ -132,7 +133,7 @@ templateEngineOverride: md, njk
   }
 </style>
 <header class="tdbc-hero">
-  <div class="tdbc-container">
+  <div class="tdbc-container" style="max-width: unset;">
     <h1 class="tdbc-ink--primary tdbc-mb-none logo">
       <span class="over-dots"></span>
       {{ meta.siteName }}
