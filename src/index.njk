@@ -16,6 +16,7 @@ templateEngineOverride: md, njk
 <style>
   .logo {
       font-family: 'Averia Libre', sans-serif;
+      white-space: nowrap;
   }
 
   .over-dots {
@@ -105,7 +106,7 @@ templateEngineOverride: md, njk
   }
 </style>
 <header class="tdbc-hero">
-  <div class="tdbc-container">
+  <div class="tdbc-container" style="max-width: unset;">
     <h1 class="tdbc-ink--primary tdbc-mb-none logo"><span class="over-dots"></span>{{ meta.siteName }}</h1>
     <h2 class="tdbc-lead tdbc-content-maxlength tdbc-ink--gray tdbc-mt-md tdbc-mx-auto">
       {{ meta.siteDescription.split("-")[1] }}
