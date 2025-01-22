@@ -3,14 +3,14 @@
 
 ### Outline
 
-This page describes the [AVI 2024](https://avi2024.dibris.unige.it/home) Workshop on Hybrid Human-AI Systems.
-- **Venue**: Arenzano, Genoa, Italy
-- **Workshop Date**: June 3, 2024
-- ~~**Submission Deadline**: April 9, 2024~~
-- ~~**Notification**: April 23, 2024~~
-- ~~**Camera Ready**: May 13, 2024~~
-- **Submission Website**: [Microsoft CMT](https://cmt3.research.microsoft.com/SYNERGY2024)
-- **Submission Templates**: [CEUR-ART 1-column](https://drive.google.com/file/d/1-1jUjijZI3IdXc7lHQbJBPeq_SGRAiel/view?usp=sharing)
+This page describes the [HHAI 2025](https://hhai-conference.org/2025/) Workshop on Hybrid Human-AI Systems. If you're looking for last year's workshop, please visit the [2024](https://synergy.trx.li/2024/) edition.
+- **Venue**: Pisa, Italy
+- **Workshop Date**: June 9, 2025
+- **Submission Deadline**: April 11, 2025
+- **Notification**: May 2, 2025
+- **Camera Ready**: May 16, 2025
+- **Submission Website**: TBD
+- **Submission Template**: [CEUR-ART 1-column](https://drive.google.com/file/d/1-1jUjijZI3IdXc7lHQbJBPeq_SGRAiel/view?usp=sharing)
 
 In 1960 the visionary Joseph Licklider wrote “Man-Computer Symbiosis”, looking forward to a day when computation could "augment the human intellect" in a similar way that mechanical tools augmented humans' physical abilities.  Sixty years on, this vision seems about to become reality.  AI systems are working alongside people in many areas including complex visual analytics, coding using tools such as co-pilot and music composition with generative AI.  We have long experience in expert systems elicitation techniques that attempt to capture and often substitute human expertise in AI systems and also in systems where AI performs some sub-task such as speech recognition.  However, we are still in the infancy of understanding how to design and build truly synergistic systems where humans and AI work flexibly alongside one another complimenting the different abilities of each.  Some human-in-the-loop systems, effectively mean the human is a cog in the machine, however true synergy means adapting AI algorithms to work more meaningfully with human intervention and adapting user interactions to make human intentions more available to the AI.
 
@@ -35,11 +35,7 @@ The topics include <u>but are not limited to</u>:
 
 Submissions should be minimum 5 pages long, following the [CEUR-WS instructions](https://ceur-ws.org/HOWTOSUBMIT.html) for single column papers. Longer submissions may be considered, provided they remain within reasonable limits. Please note that submissions do not need to be anonymized.
 
-~~The deadline for submissions is *April 9, 2024* [AoE](https://time.is/Anywhere_on_Earth).~~
-
-Submission website: [Microsoft CMT](https://cmt3.research.microsoft.com/SYNERGY2024)
-
-Additionally, selected papers will be invited for submission in expanded form to a Special Issue in a leading journal. The topic of the special issue will be Hybrid Human-AI Systems. Further instructions regarding formatting and the review/publication process will be provided when the invitations are sent.
+The deadline for submissions is *April 11, 2025* [AoE](https://time.is/Anywhere_on_Earth).
 
 Please send any comments or questions to Tommaso Turchi, [tommaso.turchi@unipi.it](mailto:tommaso.turchi@unipi.it).
 
