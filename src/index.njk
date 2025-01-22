@@ -3,16 +3,6 @@ layout: base.njk
 templateEngineOverride: md, njk
 ---
 
-{# A tiny extra style for the starter home page, intended to be removed as you customize to fit your own content! #}
-{# <script>
-    function updateCountdown() {
-        const daysLeft = Math.ceil((new Date("2024-04-10") - new Date()) / (1000 * 60 * 60 * 24));
-        document.getElementById('daysLeft').innerText = daysLeft >= 0 ? daysLeft : 0;
-    }
-
-    updateCountdown();
-</script> #}
-
 <style>
   .logo {
       font-family: 'Averia Libre', sans-serif;
@@ -134,10 +124,10 @@ templateEngineOverride: md, njk
 This page describes the <a href="https://hhai-conference.org/2025/">HHAI 2025</a> Workshop on Hybrid Human-AI Systems. If you're looking for last year's workshop, please visit the <a href="/2024/">2024 edition</a>.
 - **Venue**: Pisa, Italy
 - **Workshop Date**: June 9, 2025
-- **Submission Deadline**: April 11, 2025
+- <span id="deadline">**Submission Deadline**: <a href="https://time.is/2359_11_Apr_2025_in_Anywhere_on_Earth?SYNERGY_2025_Paper_Deadline">April 11, 2025</a> (_<span id="daysLeft"></span>_)</span>
 - **Notification**: May 2, 2025
 - **Camera Ready**: May 16, 2025
-- **Submission Website**: TBD
+- **Submission Website**: <a href="https://cmt3.research.microsoft.com/SYNERGY2025">Microsoft CMT</a>
 - **Submission Template**: <a href="https://drive.google.com/file/d/1-1jUjijZI3IdXc7lHQbJBPeq_SGRAiel/view?usp=sharing">CEUR-ART 1-column</a>
 
 In 1960 the visionary Joseph Licklider wrote “Man-Computer Symbiosis”, looking forward to a day when computation could "augment the human intellect" in a similar way that mechanical tools augmented humans' physical abilities.  Sixty years on, this vision seems about to become reality.  AI systems are working alongside people in many areas including complex visual analytics, coding using tools such as co-pilot and music composition with generative AI.  We have long experience in expert systems elicitation techniques that attempt to capture and often substitute human expertise in AI systems and also in systems where AI performs some sub-task such as speech recognition.  However, we are still in the infancy of understanding how to design and build truly synergistic systems where humans and AI work flexibly alongside one another complimenting the different abilities of each.  Some human-in-the-loop systems, effectively mean the human is a cog in the machine, however true synergy means adapting AI algorithms to work more meaningfully with human intervention and adapting user interactions to make human intentions more available to the AI.
@@ -190,3 +180,19 @@ This workshop is supported by the HORIZON Europe project TANGO - Grant Agreement
 <img src="/img/eu.png" alt="Funded by the European Union" class="footer-img">
 
 </main>
+
+<script>
+  function updateCountdown() {
+    const deadline = document.getElementById('deadline');
+    const deadlineDate = new Date("2025-04-11");
+    const now = new Date();
+    const daysLeft = Math.ceil((deadlineDate - now) / (1000 * 60 * 60 * 24));
+    
+    document.getElementById('daysLeft').innerText = daysLeft > 0 ? `${daysLeft} days left` : "Due";
+    
+    if (daysLeft < 0)
+      deadline.style.textDecoration = "line-through";
+  }
+
+  updateCountdown();
+</script>
