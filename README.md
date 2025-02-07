@@ -71,3 +71,5 @@ This workshop is supported by the HORIZON Europe project TANGO - Grant Agreement
 This work was also supported by the Engineering and Physical Sciences Research Council [grant number EP/V00784X/1] UKRI Trustworthy Autonomous Systems Hub (The TAS RRI II project), [grant number EP/G065802/1] and [grant number EP/Y009800/1] AI UK: Creating an International Ecosystem for Responsible AI Research and Innovation (RAI UK), (RAKE Responsible Innovation Advantage in Knowledge Exchange).
 
 We acknowledge the involvement of the STAHR Collective.
+
+The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
