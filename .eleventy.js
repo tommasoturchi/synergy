@@ -7,6 +7,19 @@ const eleventySass = require("@11tyrocks/eleventy-plugin-sass-lightningcss");
 const slugify = require("slugify");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItDeflist = require("markdown-it-deflist");
+
+module.exports = function (eleventyConfig) {
+  let markdownLib = markdownIt().use(markdownItDeflist);
+  eleventyConfig.setLibrary("md", markdownLib);
+
+  return {
+    dir: {
+      input: "src",
+      output: "dist",
+    },
+  };
+};
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
@@ -22,26 +35,28 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
-  eleventyConfig.addCollection("pages2024", function(collectionApi) {
+  eleventyConfig.addCollection("pages2024", function (collectionApi) {
     return collectionApi.getFilteredByGlob("./src/2024/pages/*.md");
   });
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
     html: true,
-  }).use(markdownItAnchor, {
-    permalink: markdownItAnchor.permalink.ariaHidden({
-      class: "tdbc-anchor",
-      space: false,
-    }),
-    level: [2],
-    slugify: (str) =>
-      slugify(str, {
-        lower: true,
-        strict: true,
-        remove: /["]/g,
+  })
+    .use(markdownItAnchor, {
+      permalink: markdownItAnchor.permalink.ariaHidden({
+        class: "tdbc-anchor",
+        space: false,
       }),
-  });
+      level: [2],
+      slugify: (str) =>
+        slugify(str, {
+          lower: true,
+          strict: true,
+          remove: /["]/g,
+        }),
+    })
+    .use(markdownItDeflist);
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   return {

@@ -30,6 +30,7 @@
     "not dead"
   ],
   "dependencies": {
-    "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.0.1"
+    "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.0.1",
+    "markdown-it-deflist": "^3.0.0"
   }
 }
