@@ -61,7 +61,7 @@ All submissions must demonstrate:
 
 Submissions should be minimum 5 pages long, following the [CEUR-WS instructions](https://ceur-ws.org/HOWTOSUBMIT.html) for single column papers. Longer submissions may be considered, provided they remain within reasonable limits. Please note that submissions do not need to be anonymized.
 
-The deadline for submissions is *April 11, 2025* [AoE](https://time.is/Anywhere_on_Earth).
+The deadline for submissions is *April 11, 2025* [AoE](https://time.is/Anywhere_on_Earth). Submission website: [Microsoft CMT](https://cmt3.research.microsoft.com/SYNERGY2025).
 
 Additionally, selected papers will be invited for submission in expanded form to a Special Issue in a leading journal. The topic of the special issue will be Hybrid Human-AI Systems. Further instructions regarding formatting and the review/publication process will be provided when the invitations are sent.
 
