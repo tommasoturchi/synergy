@@ -52,7 +52,7 @@ We particularly welcome submissions that:
 3. Demonstrate novel interaction patterns
 4. Address practical implementation challenges
 
-All submissions must demonstrate:
+All submissions *should* demonstrate:
 - Integration of both AI capabilities and human interaction aspects
 - Consideration of practical design and implementation implications
 - Clear connection to human-AI collaboration, even in theoretical or policy-focused work
