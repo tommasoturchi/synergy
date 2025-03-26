@@ -82,13 +82,10 @@ Please send any comments or questions to Tommaso Turchi, [tommaso.turchi@unipi.i
 ### Program Committee
 
 - **Alan Chamberlain**, University of Nottingham (United Kingdom)
-- **Silvio Carta**, University of Greenwich (United Kingdom)
-- **Marlene Weber**, Harness Inc. (United States)
-- **Glenn McGarry**, University of Nottingham (United Kingdom)
 - **Daria Mikhaylova**, University of Pisa (Italy)
-- **Sagar Pande**, University of California (United States)
 - **Roberto Figliè**, University of Pisa (Italy)
-- **Serena Versino**, University of Pisa (Italy)
+
+*Developing...*
 
 ### Acknowledgements
 
