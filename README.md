@@ -59,7 +59,7 @@ All submissions *should* demonstrate:
 
 ### Contributing Your Work
 
-Submissions should be minimum 5 pages long, following the [CEUR-WS instructions](https://ceur-ws.org/HOWTOSUBMIT.html) for single column papers. Longer submissions may be considered, provided they remain within reasonable limits. Please note that submissions do not need to be anonymized.
+Submissions should be between 5 and 10 pages long, following the [CEUR-WS instructions](https://ceur-ws.org/HOWTOSUBMIT.html) for single column papers. Longer submissions may be considered, provided they remain within reasonable limits. Please note that submissions do not need to be anonymized.
 
 The deadline for submissions is *April 11, 2025* [AoE](https://time.is/Anywhere_on_Earth). Submission website: [Microsoft CMT](https://cmt3.research.microsoft.com/SYNERGY2025).
 
