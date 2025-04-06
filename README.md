@@ -6,8 +6,8 @@
 This page describes the [HHAI 2025](https://hhai-conference.org/2025/) Workshop on Hybrid Human-AI Systems. If you're looking for last year's workshop, please visit the [2024](https://synergy.trx.li/2024/) edition.
 - **Venue**: Pisa, Italy
 - **Workshop Date**: June 9, 2025
-- **Submission Deadline**: April 11, 2025
-- **Notification**: May 2, 2025
+- **Submission Deadline**: April 21, 2025
+- **Notification**: May 5, 2025
 - **Camera Ready**: May 16, 2025
 - **Submission Website**: [Microsoft CMT](https://cmt3.research.microsoft.com/SYNERGY2025)
 - **Submission Template**: [CEUR-ART 1-column](https://drive.google.com/file/d/1-1jUjijZI3IdXc7lHQbJBPeq_SGRAiel/view?usp=sharing)
@@ -61,7 +61,7 @@ All submissions *should* demonstrate:
 
 Submissions should be between 5 and 10 pages long, following the [CEUR-WS instructions](https://ceur-ws.org/HOWTOSUBMIT.html) for single column papers. Longer submissions may be considered, provided they remain within reasonable limits. Please note that submissions do not need to be anonymized.
 
-The deadline for submissions is *April 11, 2025* [AoE](https://time.is/Anywhere_on_Earth). Submission website: [Microsoft CMT](https://cmt3.research.microsoft.com/SYNERGY2025).
+The deadline for submissions is *April 21, 2025* [AoE](https://time.is/Anywhere_on_Earth). Submission website: [Microsoft CMT](https://cmt3.research.microsoft.com/SYNERGY2025).
 
 Additionally, selected papers will be invited for submission in expanded form to a Special Issue in a leading journal. The topic of the special issue will be Hybrid Human-AI Systems. Further instructions regarding formatting and the review/publication process will be provided when the invitations are sent.
 
@@ -92,9 +92,5 @@ Please send any comments or questions to Tommaso Turchi, [tommaso.turchi@unipi.i
 _Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Health and Digital Executive Agency (HaDEA). Neither the European Union nor the granting authority can be held responsible for them._
 
 This workshop is supported by the HORIZON Europe project TANGO - Grant Agreement n. 101120763.
-
-This work was also supported by the Engineering and Physical Sciences Research Council [grant number EP/V00784X/1] UKRI Trustworthy Autonomous Systems Hub (The TAS RRI II project), [grant number EP/G065802/1] and [grant number EP/Y009800/1] AI UK: Creating an International Ecosystem for Responsible AI Research and Innovation (RAI UK), (RAKE Responsible Innovation Advantage in Knowledge Exchange).
-
-We acknowledge the involvement of the STAHR Collective.
 
 The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
