@@ -84,6 +84,7 @@ Please send any comments or questions to Tommaso Turchi, [tommaso.turchi@unipi.i
 - **Alan Chamberlain**, University of Nottingham (United Kingdom)
 - **Daria Mikhaylova**, University of Pisa (Italy)
 - **Roberto Figliè**, University of Pisa (Italy)
+- **Beatrice Melis**, University of Pisa (Italy)
 
 *Developing...*
 
