@@ -14,7 +14,7 @@ description: 'We are pleased to present the list of papers accepted for presenta
 
 4. _Bahavathy Kathirgamanathan (Fraunhofer IAIS); Gennady Andrienko (Fraunhofer IAIS); Natalia Andrienko (Fraunhofer IAIS)_. **A Hybrid Human-Centric approach to combining Rule-based and Attribute based Explanations**
 
-5. _Alan Dix (Swansea University and Cardiff Metropolitan University); Tommaso Turchi (Department of Computer Science, University of Pisa); Ben Wilson (Computational Foundry, Swansea University); Alessio Malizia (Department of Computer Science, University of Pisa); Anna Monreale (Department of Computer Science, University of Pisa); Matt Roach (Computational Foundry, Swansea University)_. **Maintaining Coherence in Explainable AI: Strategies for Consistency Across Time and Interaction**
+5. _Alan Dix (Swansea University and Cardiff Metropolitan University); Tommaso Turchi (University of Pisa); Ben Wilson (Swansea University); Alessio Malizia (University of Pisa); Anna Monreale (University of Pisa); Matt Roach (Swansea University)_. **Maintaining Coherence in Explainable AI: Strategies for Consistency Across Time and Interaction**
 
 6. _Antonio Curci (University of Bari); Andrea Esposito (University of Bari Aldo Moro)_. **An AI Act-Driven Design for Detecting Brain Tumors through Reconfiguration**
 
