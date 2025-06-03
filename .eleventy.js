@@ -32,6 +32,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/ceur-ws/*.pdf");
   eleventyConfig.addPassthroughCopy("./src/ceur-ws/*.css");
   eleventyConfig.addPassthroughCopy("./src/ceur-ws/*.png");
+  eleventyConfig.addPassthroughCopy("./src/papers/*.pdf");
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
