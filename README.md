@@ -8,7 +8,7 @@ This page describes the [HHAI 2025](https://hhai-conference.org/2025/) Workshop 
 - **Workshop Date**: June 9, 2025
 - ~~**Submission Deadline**: April 21, 2025~~
 - ~~**Notification**: May 8, 2025~~
-- **Camera Ready**: TBA
+- **Camera Ready**: June 13, 2025
 - **Submission Website**: [Microsoft CMT](https://cmt3.research.microsoft.com/SYNERGY2025)
 - **Submission Template**: [CEUR-ART 1-column](https://drive.google.com/file/d/1-1jUjijZI3IdXc7lHQbJBPeq_SGRAiel/view?usp=sharing)
 
