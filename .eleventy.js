@@ -39,6 +39,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("pages2024", function (collectionApi) {
     return collectionApi.getFilteredByGlob("./src/2024/pages/*.md");
   });
+  eleventyConfig.addCollection("pages2025", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("./src/2025/pages/*.md");
+  });
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
