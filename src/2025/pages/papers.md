@@ -2,6 +2,7 @@
 title: "Accepted Papers"
 menutitle: "Papers"
 description: 'We are pleased to present the list of papers accepted for presentation. Each paper has been rigorously reviewed by experts in the field, and selected for its contribution to our understanding of Human-AI collaboration. Congratulations to all authors!'
+eleventyExcludeFromCollections: true
 ---
 
 ### List of Accepted Papers

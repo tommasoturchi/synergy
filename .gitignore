@@ -20,3 +20,9 @@ public
 .flox
 
 src/cfp
+
+.claude
+.cursor
+.linggen
+AGENTS.md
+CLAUDE.md
