@@ -5,7 +5,7 @@
 
 This page describes the [AVI 2026](https://www.unive.it/web/en/15667/home) Workshop on Hybrid Human-AI Systems. If you're looking for previous editions, please visit the [2025](https://synergy.trx.li/2025/) or [2024](https://synergy.trx.li/2024/) editions.
 - **Venue**: Venice, Italy
-- **Workshop Date**: June 8-9, 2026
+- **Workshop Date**: June 8/9, 2026
 - **Submission Deadline**: [March 29, 2026](https://time.is/2359_29_Mar_2026_in_Anywhere_on_Earth?SYNERGY_2026_Paper_Deadline)
 - **Notification**: April 10, 2026
 - **Camera Ready**: TBD
