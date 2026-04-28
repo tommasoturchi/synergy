@@ -8,7 +8,6 @@ This page describes the [AVI 2026](https://www.unive.it/web/en/15667/home) Works
 - **Workshop Date**: June 8/9, 2026
 - ~~**Submission Deadline**: [March 29, 2026](https://time.is/2359_29_Mar_2026_in_Anywhere_on_Earth?SYNERGY_2026_Paper_Deadline)~~
 - **Notification**: April 10, 2026
-- **Camera Ready**: TBD
 - **Submission Website**: TBD
 - **Submission Template**: [CEUR-ART 1-column](https://drive.google.com/file/d/1-1jUjijZI3IdXc7lHQbJBPeq_SGRAiel/view?usp=sharing)
 
